@@ -22,7 +22,7 @@ const styles = theme => ({
     position: "relative"
   },
   textField: {
-    width: 200,
+    width: "80%",
     display: "block",
     margin: "10px auto",
     [theme.breakpoints.up("sm")]: {
@@ -91,7 +91,7 @@ const styles = theme => ({
     paddingBottom: 30,
     transform: "translate(-50%,-50%)",
     left: "50%",
-    width: 350,
+    width: "80%",
     [theme.breakpoints.up("sm")]: {
       bottom: -180,
       width: 500,
@@ -109,7 +109,6 @@ const styles = theme => ({
     }
   },
   formButton: {
-    width: 115,
     backgroundColor: "#EF3B37",
     textTransform: "uppercase",
     boxShadow:
